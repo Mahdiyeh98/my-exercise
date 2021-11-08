@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZEL_VORGANG_BIP>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <MANDT>100</MANDT>
+            <DOCNUM>100000188750</DOCNUM>
+            <DOCREL>760</DOCREL>
+            <STATUS>35</STATUS>
+            <DIRECT>10</DIRECT>
+            <OUTMOD>12</OUTMOD>
+            <IDOCTYP>ZEL_VORGANG_BIP</IDOCTYP>
+            <MESTYP>ZEL_VORGANG_BIP</MESTYP>
+            <SNDPOR>SAQPIFR</SNDPOR>
+            <SNDPRT>LR</SNDPRT>
+            <SNDPRN>IRRBNV100</SNDPRN>
+            <RCVPOR>PI_RID</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>PI_RID</RCVPRN>
+            <CREDAT>20210928</CREDAT>
+            <CRETIM>124903</CRETIM>
+            <SERIAL>20210928124902</SERIAL>
+        </EDI_DC40>
+        <Z1VGHEAD SEGMENT="1">
+            <SYSNAME>LVPMI23</SYSNAME>
+            <LVSNAME>WAMAS-E</LVSNAME>
+            <LVSVERSION>4.49.1.3.SLES12.SP3</LVSVERSION>
+            <PLANT>CY23</PLANT>
+            <GHNAME>Minden</GHNAME>
+            <LAGERNAME>Laue</LAGERNAME>
+            <LAGERORT>Laue</LAGERORT>
+            <VGLONGNUM>0104063840</VGLONGNUM>
+            <VGDOCNUM>616629</VGDOCNUM>
+            <VGHOST>SAP</VGHOST>
+            <TERMLIEFER>20210927220000</TERMLIEFER>
+            <TERMGPENTBG>20210928110000</TERMGPENTBG>
+            <TERMGPENTEND>20210928112500</TERMGPENTEND>
+            <TERMLKWEINF>20210928104551</TERMLKWEINF>
+            <TERMVGANM>20210928104555</TERMVGANM>
+            <TERMVGBG>20210928104608</TERMVGBG>
+            <TERMVGEND>20210928104845</TERMVGEND>
+            <LKWKENZ>MI - PD 1</LKWKENZ>
+            <SPED>Coffee GmbH</SPED>
+            <STATUS>F</STATUS>
+            <Z1VGPOS SEGMENT="1">
+                <VG_POS>1</VG_POS>
+                <PO_NUMBER>16947449</PO_NUMBER>
+                <PO_ITEM>2</PO_ITEM>
+                <MATERIAL>1594384008</MATERIAL>
+                <PO_UNIT>KOA</PO_UNIT>
+                <PO_WGHT_GR>3.500</PO_WGHT_GR>
+                <PO_WGHT_NT>3.156</PO_WGHT_NT>
+                <PO_QTY>672.000</PO_QTY>
+                <ANM_QTY>480.000</ANM_QTY>
+                <ANM_WGHT_NT>1514.880</ANM_WGHT_NT>
+                <DLV_UNIT>KOA</DLV_UNIT>
+                <DLV_QTY>96.000</DLV_QTY>
+                <DLV_WGHT_NT>302.976</DLV_WGHT_NT>
+                <DLV_WGHT_GR>336.000</DLV_WGHT_GR>
+                <DLV_NVECNT>1</DLV_NVECNT>
+                <LIEFNR>5001310</LIEFNR>
+                <KO_DIM_Y>199.000</KO_DIM_Y>
+                <KO_DIM_X>382.000</KO_DIM_X>
+                <KO_DIM_Z>100.000</KO_DIM_Z>
+                <KO_WGHT_GR>3.500</KO_WGHT_GR>
+                <KO_WGHT_NT>3.000</KO_WGHT_NT>
+                <GTIN_BME>4311501387863</GTIN_BME>
+                <GTIN_KO>4311501387870</GTIN_KO>
+                <LBKOM>TS02</LBKOM>
+                <LOADINGGRP>TS</LOADINGGRP>
+                <LVBELNR>0016947449</LVBELNR>
+            </Z1VGPOS>
+            <Z1NVEHEAD SEGMENT="1">
+                <NVE>340224591711399927</NVE>
+                <TOTAL_WGHT>356.000</TOTAL_WGHT>
+                <NVE_HEIGHT>1050</NVE_HEIGHT>
+                <NVE_VOL>729.773</NVE_VOL>
+                <NVE_LHM>1000</NVE_LHM>
+                <Z1NVEPOS SEGMENT="1">
+                    <NVE>340224591711399927</NVE>
+                    <NVE_POS>1</NVE_POS>
+                    <EBELN>16947449</EBELN>
+                    <EBELP>2</EBELP>
+                    <MATERIAL>1594384008</MATERIAL>
+                    <PACK_QTY>96.000</PACK_QTY>
+                    <PACK_UNIT>KOA</PACK_UNIT>
+                    <PACK_WGHT>302.976</PACK_WGHT>
+                    <MHD>20221230</MHD>
+                    <SCANMENGE>0.000</SCANMENGE>
+                </Z1NVEPOS>
+            </Z1NVEHEAD>
+            <Z1VGLIEFBEW SEGMENT="1">
+                <PRFID>305</PRFID>
+                <PRFBEZ>Fehlmenge</PRFBEZ>
+                <PRFLEVEL>B</PRFLEVEL>
+                <PRFTYP>A</PRFTYP>
+                <VGPOS>1</VGPOS>
+                <VENDOR>5001310</VENDOR>
+                <VENDOR_DOCNUM>0016947449</VENDOR_DOCNUM>
+                <PO_NUMBER>16947449</PO_NUMBER>
+                <PO_ITEM>2</PO_ITEM>
+                <MATERIAL>1594384008</MATERIAL>
+                <TERMPRF>20210928104832</TERMPRF>
+                <PRFMENGE>96.000</PRFMENGE>
+                <PRFMNGEHT>KOA</PRFMNGEHT>
+                <PRFWERTTYP>K</PRFWERTTYP>
+                <PRFWERT>V</PRFWERT>
+            </Z1VGLIEFBEW>
+        </Z1VGHEAD>
+    </IDOC>
+</ZEL_VORGANG_BIP>
