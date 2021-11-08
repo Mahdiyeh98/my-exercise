@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    background-color: teal;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.headerSection {
+    display: flex;
+    align-items: center;
+}
+
+.headerItem {
+    color: aquamarine;
+    padding: 5px 15px;
+}
+
+.headerItem+.headerItem {
+    margin-left: 5px;
+}
+
+.headerButton {
+    cursor: pointer;
+}
+
+.headerLogo {
+    color: rgb(160, 245, 245);
+}
+
+.headerButton.active {
+    background-color: rgb(1, 56, 56);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
